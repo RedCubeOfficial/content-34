@@ -5,6 +5,12 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -17,8 +23,7 @@
 .box-1{
     width: 948px;
     height: 52px;
-    margin-top: 80px;
-    margin-left: 216px;
+        margin-left: 216px;
 }
 .col-2{
     width: 1025px;
